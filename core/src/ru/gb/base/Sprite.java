@@ -1,3 +1,4 @@
+
 package ru.gb.base;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -22,6 +23,10 @@ public class Sprite extends Rect {
         setHeight(height);
         float aspect = regions[frame].getRegionWidth() / (float) regions[frame].getRegionHeight();
         setWidth(height * aspect);
+    }
+
+    public void update(float delta) {
+
     }
 
     public void draw(SpriteBatch batch) {
