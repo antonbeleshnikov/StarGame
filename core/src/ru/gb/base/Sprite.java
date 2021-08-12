@@ -1,4 +1,3 @@
-
 package ru.gb.base;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
