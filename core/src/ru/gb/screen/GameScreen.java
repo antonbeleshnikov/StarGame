@@ -27,6 +27,10 @@ import ru.gb.utils.EnemyEmitter;
 
 public class GameScreen extends BaseScreen {
 
+    /*
+    Комментарий для пул-реквеста, т.к форма на сайте не позволяет дать ссылку на сам репозиторий, только на пул-реквест
+     */
+
     private static final int STAR_COUNT = 64;
     private static final float PADDING = 0.01f;
 
